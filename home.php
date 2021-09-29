@@ -127,8 +127,27 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           Settings
           <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
         </a>
+        
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+        </div>
+        <h2>Statistics</h2>
+        <p>Statistics</p>
+        <a href="statistics.php" class="icon-link">
+        Statistics
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+        </a>
+        
       </div>
     </div>
+  
+      
+    </div>
+    
+
+
     </div>
     
   </div>
