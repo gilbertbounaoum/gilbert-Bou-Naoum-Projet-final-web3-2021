@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "endroid/qr-code": "^4.1",
+        "mpdf/qrcode": "^1.1"
+    }
+}
