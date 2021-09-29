@@ -56,6 +56,9 @@ while ($rowp = mysqli_fetch_row($pos) )  {
 
 <html>
   <head>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
@@ -77,8 +80,17 @@ while ($rowp = mysqli_fetch_row($pos) )  {
         chart.draw(data, options);
       }
     </script>
+    <style>
+       button{margin: 0px;}
+    .search,
+  .logo {
+  position: absolute;
+  right: 15px;
+}</style>
   </head>
   <body>
+  <a href="home.php">
+     <span  class="btn btn-primary"  >back</span></a>
     <div id="donutchart" style="width: 900px; height: 500px;"></div>
   </body>
 </html> 
